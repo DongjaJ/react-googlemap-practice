@@ -1,5 +1,5 @@
 {
-  "name": ".",
+  "name": "react-google-map-example",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,12 +10,15 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@googlemaps/markerclusterer": "^2.5.3",
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/react-router": "^1.114.3",
     "@tanstack/react-router-devtools": "^1.114.3",
     "@tanstack/router-plugin": "^1.114.3",
+    "@vis.gl/react-google-maps": "^1.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "supercluster": "^8.0.1",
     "tailwindcss": "^4.0.6"
   },
   "devDependencies": {
